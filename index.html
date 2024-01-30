@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- Link js -->
+    <script
+      type="text/javascript"
+      src="js/calculator.js"
+      charset="UTF-8"
+    ></script>
+
+    <!-- Audios scripts -->
+
+    
+
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+
+    <audio
+      id="audio"
+      src="/Programacion/calculadora/images/crow1-5986.mp3"
+    ></audio>
+
+    
+
+
+    <!-- Link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link CSS -->
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+  
+      <!-- Calculator -->
+      <div class="container-fluid">
+        <div class="section1">
+          <div class="carcasa">
+            <div class="calculator col-12">
+              <!-- Top Screen-->
+              <div class="divtopscreen">
+                <input class="topscreenC" type="text" id="topscreen" />
+              </div>
+              <!-- Main Screen-->
+              <input class="screenC" type="text" id="screen" />
+              <!-- controllers-->
+              <div class="controllers">
+                <div>
+                  <input
+                    class="imagen01"
+                    type="button"
+                    value="1"
+                    onclick="addSymbol('1'), play()"
+                    ;
+                  />
+                  <input
+                    class="imagen02"
+                    type="button"
+                    value="2"
+                    onclick='addSymbol("2"), play()'
+                  />
+                  <input
+                    class="imagen03"
+                    type="button"
+                    value="3"
+                    onclick="addSymbol('3'), play()"
+                  />
+                  <input
+                    class="imagen04"
+                    type="button"
+                    value="+"
+                    onclick="addSymbol('+'), play()"
+                  />
+                </div>
+                <div>
+                  <input
+                    class="imagen05"
+                    type="button"
+                    value="4"
+                    onclick="addSymbol('4'), play()"
+                  />
+                  <input
+                    class="imagen06"
+                    type="button"
+                    value="5"
+                    onclick='addSymbol("5"), play()'
+                  />
+                  <input
+                    class="imagen07"
+                    type="button"
+                    value="6"
+                    onclick="addSymbol('6'), play()"
+                  />
+                  <input
+                    class="imagen08"
+                    type="button"
+                    value="-"
+                    onclick="addSymbol('-'), play()"
+                  />
+                </div>
+                <div>
+                  <input
+                    class="imagen09"
+                    type="button"
+                    value="7"
+                    onclick="addSymbol('7'), play()"
+                  />
+                  <input
+                    class="imagen10"
+                    type="button"
+                    value="8"
+                    onclick='addSymbol("8"), play()'
+                  />
+                  <input
+                    class="imagen11"
+                    type="button"
+                    value="9"
+                    onclick="addSymbol('9'), play()"
+                  />
+                  <input
+                    class="imagen12"
+                    type="button"
+                    value="*"
+                    onclick="addSymbol('*'), play()"
+                  />
+                </div>
+                <div>
+                  <input
+                    class="imagen13"
+                    type="button"
+                    value="0"
+                    onclick="addSymbol('0'), play()"
+                  />
+                  <input
+                    class="imagen14"
+                    type="button"
+                    value="C"
+                    onclick='clearScreen("C"), play(),  clearTopScreen()'
+                  />
+                  <input
+                    class="imagen15"
+                    type="button"
+                    value="="
+                    onclick="calculate('='), play(),  message()"
+                  />
+                  <input
+                    class="imagen16"
+                    type="button"
+                    value="/"
+                    onclick="addSymbol('/'), play()"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

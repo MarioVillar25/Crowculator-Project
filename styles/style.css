@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&family=Satisfy&display=swap");
+:root {
+  --padding-section: 10vw;
+  --color-01: #322f42;
+  --color-02: #212531;
+  --color-03: #c5c3c4;
+  --color-04: #2C4C3B;
+  --color-05: #1E453E;
+}
+
+body {
+  background-image: url(/Programacion/calculadora/images/background02.png);
+  background-size: cover;
+}
+
+input {
+  font-size: 4rem;
+}
+
+.section1 {
+  padding: 2vh 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.section1 .carcasa {
+  height: 850px;
+  padding: 10px;
+  background-image: url(/Programacion/calculadora/images/carcasa.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.section1 .carcasa .calculator {
+  width: 80%;
+  padding: 5vh 3vw;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.section1 .carcasa .calculator .divtopscreen {
+  display: flex;
+  justify-content: flex-end;
+}
+.section1 .carcasa .calculator .divtopscreen .topscreenC {
+  color: white;
+  padding: 0;
+  padding: 10px 45px;
+  margin: 0;
+  font-family: "Salsa", cursive;
+  background-color: var(--color-04);
+  border: 4px solid black;
+  border-radius: 10px;
+  width: 50%;
+  height: 60px;
+  font-size: 20px;
+}
+.section1 .carcasa .calculator .screenC {
+  color: white;
+  width: 100%;
+  padding: 0;
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 10px;
+  background-color: var(--color-05);
+  border: 4px solid black;
+  border-radius: 10px;
+  height: 70px;
+  font-size: 3rem;
+  font-family: "Salsa", cursive;
+}
+.section1 .carcasa .calculator .controllers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.section1 .carcasa .calculator .controllers .imagen01 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/1.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen01:hover {
+  background-image: url(/Programacion/calculadora/images/1_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen02 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/2.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen02:hover {
+  background-image: url(/Programacion/calculadora/images/2-red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen03 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/3.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen03:hover {
+  background-image: url(/Programacion/calculadora/images/3_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen04 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/+.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen04:hover {
+  background-image: url(/Programacion/calculadora/images/+_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen05 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/4.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen05:hover {
+  background-image: url(/Programacion/calculadora/images/4_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen06 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/5.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen06:hover {
+  background-image: url(/Programacion/calculadora/images/5_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen07 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/6.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen07:hover {
+  background-image: url(/Programacion/calculadora/images/6_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen08 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/restar.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen08:hover {
+  background-image: url(/Programacion/calculadora/images/menos_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen09 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/7.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen09:hover {
+  background-image: url(/Programacion/calculadora/images/7_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen10 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/8.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen10:hover {
+  background-image: url(/Programacion/calculadora/images/8_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen11 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/9.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen11:hover {
+  background-image: url(/Programacion/calculadora/images/9_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen12 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/multiplicar.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen12:hover {
+  background-image: url(/Programacion/calculadora/images/multiplicar_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen13 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/0.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen13:hover {
+  background-image: url(/Programacion/calculadora/images/0_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen14 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/C.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen14:hover {
+  background-image: url(/Programacion/calculadora/images/c_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen15 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/=.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen15:hover {
+  background-image: url(/Programacion/calculadora/images/igual_red.png);
+}
+.section1 .carcasa .calculator .controllers .imagen16 {
+  color: transparent;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-image: url(/Programacion/calculadora/images/division.png);
+  background-position: center;
+  background-size: cover;
+}
+.section1 .carcasa .calculator .controllers .imagen16:hover {
+  background-image: url(/Programacion/calculadora/images/division_red.png);
+}
+.section1 .carcasa .calculator .controllers input:hover {
+  scale: 1.3;
+}
+.section1 .carcasa .calculator .controllers > div {
+  display: flex;
+  justify-content: space-around;
+}
+.section1 .carcasa .calculator .controllers > div > input {
+  width: 20%;
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
